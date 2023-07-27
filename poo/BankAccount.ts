@@ -1,4 +1,5 @@
 
+
 export interface User {
     name: string,
     age: number,
@@ -47,5 +48,6 @@ export class BankAccount {
         } else {
             throw new Error("Saldo indisponivel :(");
         }
+    
     }
 }
