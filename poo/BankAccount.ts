@@ -6,6 +6,8 @@ export default interface User {
 }
 
 
+
+
 export default class BankAccount {
     private titular: string;
     private saldo: number;
